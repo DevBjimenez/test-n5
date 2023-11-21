@@ -13,7 +13,7 @@ const prodConfig = {
             name: "harryPotterApp",
             filename: "remoteEntry.js",
             exposes: {
-                "./rick": "./src/index"
+                "./rick": "./src/bootstrap"
             },
             shared: {
                 ...deps,

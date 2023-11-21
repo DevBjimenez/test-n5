@@ -13,7 +13,7 @@ const prodConfig = {
             name: "rickMortyApp",
             filename: "remoteEntry.js",
             exposes: {
-                "./harry": "./src/index"
+                "./harry": "./src/bootstrap"
             },
             shared: {
                 ...deps,
